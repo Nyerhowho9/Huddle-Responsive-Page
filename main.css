@@ -101,27 +101,64 @@ main{
     box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
     margin-top: 50px;
 }
+.flow-box > div{
+    flex: 1;
+    padding: 50px;
+}
 .users-box{
     margin: auto;
     display: flex;
     width: 90%;
     box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
     margin-top: 50px;
+    margin-bottom: 300px;
+}
+.users-box > div{
+    flex: 1;
+    padding: 50px;
 }
 
 .grow-text, .flow-text, .users-text{
     margin: auto;
     flex: 1;
 }
+
 .grow-text > div{
     padding: 100px;
+}
+.flow-img > img{
+    padding: 100px;
+}
+.users-text > div{
+    padding: 100px;
+}
+
+.grow-text > div>p, .flow-text >div >p, .users-text>div>p{
+    font-size: 18px;
+    font-weight: 400;
 }
 .grow-img > img, .flow-img >img, .users-img >img{
     height: 400px;
     flex: 1;
 }
 .last-div{
+    margin: auto;
     text-align: center;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+    width: 30%;
+    height: 100px;
+    padding: 50px;
+    padding-bottom: 70px;
+    border-radius: 15px;
+    position: absolute;
+    top: -130px;
+    left: 650px;
+    color: hsl(192, 100%, 9%);
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    
+    
+    
 }
 .last-div >h2{
     color: hsl(192, 100%, 9%);
@@ -129,35 +166,74 @@ main{
 .last-div > p{
     color: hsl(193, 100%, 96%);
 }
+.last-div >button{
+    background-color: hsl(322, 100%, 66%);
+    color: hsl(193, 100%, 96%);
+    border: none;
+    border-radius: 40px;
+    height: 65px;
+    width: 280px;
+    font-size: 20px;
+}
 h2{
     font-weight: 700;
 }
+
 footer{
     background-color: hsl(192, 100%, 9%);
     color: hsl(208, 11%, 55%);
+    padding-left: 150px;
+    padding-top: 200px;
+    margin-top: 100px;
+   
+    position: relative;
+    
+}
+footer>div{
+    padding-bottom: 50px;
+}
+footer>div>img{
+    background-color: hsl(193, 100%, 96%);
     
 }
 .footer-box{
     display: flex;
+    justify-content: space-around;
 }
 .first-column {
-    flex: 1;
+    
     display: flex;
     flex-direction: column;
+    width: 25%;
+    padding-right: 50px;
 }
 .second-column {
-    flex: 1;
+    
     display: flex;
     flex-direction: column;
+    width: 25%;
+    padding-left: 50px;
 }
 .third-column {
-    flex: 1;
+    
     display: flex;
     flex-direction: column;
+    width: 25%;
     
 }
 .fourth-column{
-    flex: 1;
+    
+    width: 25%;
+  
+}
+.fourth-column>div{
+    display: flex;
+    gap: 20px;
+}
+.fourth-column>div>img{
+    border: 2px solid hsl(193, 100%, 96%);
+    border-radius: 50%;
+    padding: 10px;
     
 }
 a{
