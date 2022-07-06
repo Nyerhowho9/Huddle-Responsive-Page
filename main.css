@@ -1,0 +1,173 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Open+Sans:wght@400;700&family=Poppins&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    background-image: url(./images/bg-hero-desktop.svg);
+    font-family: 'Poppins';
+    background-color: hsl(193, 100%, 96%);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 60px;
+}
+nav > img{
+   
+}
+nav > button{
+   color: hsl(192, 100%, 9%);
+   height: 60px;
+    width: 250px;
+    border: none;
+    border-radius: 50px;
+    font-size: 17px;
+    background-color: white;
+    box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
+}
+.hero-div{
+    display: flex;
+    padding-top: 100px;
+    height: 70vh;
+}
+.hero-text{
+    margin: auto;
+    flex: 1;
+    
+}
+.hero-text > div{
+    text-align: justify;
+    padding-left: 100px;
+    width: 60%;
+    color: hsl(192, 100%, 9%);
+}
+.hero-text > div >button{
+    background-color: hsl(322, 100%, 66%);
+    color: hsl(193, 100%, 96%);
+    border: none;
+    margin-top: 30px;
+}
+.hero-text > div > h1{
+    font-weight: bolder;
+    font-size: 45px;
+}
+.hero-text > div > p{
+    font-size: 17px;
+    font-weight: 500;
+}
+.hero-text > div > button{
+    height: 60px;
+    width: 350px;
+    border-radius: 50px;
+    font-size: 17px;
+}
+.mockUp-img{
+    margin: auto;
+    flex: 1;
+    
+    
+}
+.mockUp-img >div> img{
+    width: 80%;
+    
+    
+}
+main{
+    margin-top: 100px;
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(192, 100%, 9%);
+}
+.grow-box{
+    margin: auto;
+    display: flex;
+    width: 90%;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+}
+.grow-box > div{
+    flex: 1;
+    padding: 50px;
+}
+.flow-box{
+    margin: auto;
+    display: flex;
+    width: 90%;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+}
+.users-box{
+    margin: auto;
+    display: flex;
+    width: 90%;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+}
+
+.grow-text, .flow-text, .users-text{
+    margin: auto;
+    flex: 1;
+}
+.grow-text > div{
+    padding: 100px;
+}
+.grow-img > img, .flow-img >img, .users-img >img{
+    height: 400px;
+    flex: 1;
+}
+.last-div{
+    text-align: center;
+}
+.last-div >h2{
+    color: hsl(192, 100%, 9%);
+}
+.last-div > p{
+    color: hsl(193, 100%, 96%);
+}
+h2{
+    font-weight: 700;
+}
+footer{
+    background-color: hsl(192, 100%, 9%);
+    color: hsl(208, 11%, 55%);
+    
+}
+.footer-box{
+    display: flex;
+}
+.first-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.second-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.third-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+}
+.fourth-column{
+    flex: 1;
+    
+}
+a{
+    text-decoration: none;
+    color: hsl(208, 11%, 55%);
+}
+.copyright{
+    text-align: right;
+}
+hsl(193, 100%, 96%)
+- Very Dark Cyan: hsl(192, 100%, 9%)
+- Grayish Blue: hsl(208, 11%, 55%)
+Pink: hsl(322, 100%, 66%)
