@@ -223,8 +223,17 @@ footer>div>img{
     display: flex;
     flex-direction: column;
     width: 25%;
-    padding-right: 50px;
+   
 }
+.first-column >div{
+    display: flex;
+   gap: 20px;
+   justify-items: left;
+}
+.first-column >div>img{
+    margin: auto;
+}
+
 .second-column {
     
     display: flex;
@@ -249,6 +258,7 @@ footer>div>img{
     gap: 20px;
 }
 .fourth-column>div>img{
+    background-color: hsl(193, 100%, 96%);
     border: 2px solid hsl(193, 100%, 96%);
     border-radius: 50%;
     padding: 10px;
@@ -261,4 +271,271 @@ a{
 .copyright{
     text-align: right;
     padding-right: 100px;
+}
+@media only screen and (max-width:1200px) {
+    body{
+        margin: 0;
+        padding: 0;
+        
+    }
+    @keyframes anime {
+        0%{transform: rotate(0deg); }
+        100% {transform: rotate(359deg);}
+    }
+    header{
+        background-image: url(./images/bg-hero-desktop.svg);
+        font-family: 'Poppins';
+        background-color: hsl(193, 100%, 96%);
+        margin-bottom: 100px;
+        height: 100vh;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+    }
+    nav > img{
+        height: 35px;
+        width: 150px;
+        animation-name: anime;
+        animation-duration: 5s;
+
+        
+    }
+    nav > button{
+       color: hsl(192, 100%, 9%);
+       height: 40px;
+        width: 100px;
+        border: none;
+        border-radius: 20px;
+        font-size: 15px;
+        background-color: white;
+        box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
+    }
+    
+.hero-div{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    
+}
+.hero-text{
+    
+}
+.hero-text > div{
+    margin: auto;
+    text-align: center;
+    color: hsl(192, 100%, 9%);
+}
+.hero-text > div >button{
+    background-color: hsl(322, 100%, 66%);
+    color: hsl(193, 100%, 96%);
+    border: none;
+    
+    font-size: 15px;
+}
+
+.hero-text > div > h1{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.hero-text > div > p{
+    font-size: 17px;
+    font-weight: 500;
+}
+.hero-text > div > button{
+    height: 60px;
+    width: 200px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+.mockUp-img{
+    
+    
+    
+}
+.mockUp-img >div> img{
+    width: 80%;
+    
+    
+    
+}
+    
+
+main{
+    margin-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(192, 100%, 9%);
+}
+.grow-box{
+    margin: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 90%;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.grow-box > div{
+  
+}
+.flow-box{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.flow-box > div{
+ 
+}
+.users-box{
+    margin: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 90%;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+    margin-bottom: 300px;
+    border-radius: 20px;
+}
+.users-box > div{
+  
+}
+
+.grow-text, .flow-text, .users-text{
+    text-align: center;
+    
+}
+.grow-text >div, .flow-text >div, .users-text>div{
+    height: 50%;
+    
+}
+
+
+.grow-text > div>p, .flow-text >div >p, .users-text>div>p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.grow-img > img, .flow-img >img, .users-img >img{
+    width: 90%;
+    height: 50%;
+    
+}
+.last-div{
+    margin: auto;
+    text-align: center;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    height: 100px;
+    padding: 50px;
+    padding-bottom: 70px;
+    border-radius: 15px;
+    position: absolute;
+    top: -130px;
+    left: 5%;
+    color: hsl(192, 100%, 9%);
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    
+    
+    
+}
+.last-div >h2{
+    color: hsl(192, 100%, 9%);
+}
+.last-div > p{
+    color: hsl(193, 100%, 96%);
+}
+.last-div >button{
+    background-color: hsl(322, 100%, 66%);
+    color: hsl(193, 100%, 96%);
+    border: none;
+    border-radius: 40px;
+    height: 35px;
+    width: 200px;
+    font-size: 15px;
+    padding: 5px;
+}
+h2{
+    font-weight: 700;
+}
+
+footer{
+    background-color: hsl(192, 100%, 9%);
+    color: hsl(208, 11%, 55%);
+    padding-left: 150px;
+    padding-top: 200px;
+    margin-top: 100px;
+   
+    position: relative;
+    
+}
+footer>div{
+    padding-bottom: 50px;
+}
+footer>div>img{
+    background-color: hsl(193, 100%, 96%);
+    
+}
+.footer-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.first-column {
+   
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    
+}
+.first-column>.hero-div{
+    text-align: left;
+}
+.second-column {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+    
+}
+.third-column {
+    
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    
+}
+.fourth-column{
+    
+    width: 25%;
+  
+}
+.fourth-column>div{
+   margin: auto;
+    display: flex;
+    gap: 20px;
+   
+}
+.fourth-column>div>img{
+    border: 2px solid hsl(193, 100%, 96%);
+    border-radius: 50%;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: hsl(208, 11%, 55%);
+}
+.copyright{
+    text-align: center;
+    
+}
 }
