@@ -5,11 +5,15 @@ body{
     padding: 0;
     
 }
-
+@keyframes anime {
+    0%{transform: rotate(0deg); }
+    100% {transform: rotate(359deg);}
+}
 header{
     background-image: url(./images/bg-hero-desktop.svg);
     font-family: 'Poppins';
     background-color: hsl(193, 100%, 96%);
+    margin-bottom: 200px;
 }
 nav{
     display: flex;
@@ -19,7 +23,9 @@ nav{
     padding-top: 60px;
 }
 nav > img{
-   
+    
+    animation-name: anime;
+    animation-duration: 2s;
 }
 nav > button{
    color: hsl(192, 100%, 9%);
@@ -52,7 +58,9 @@ nav > button{
     color: hsl(193, 100%, 96%);
     border: none;
     margin-top: 30px;
+    font-size: 20px;
 }
+
 .hero-text > div > h1{
     font-weight: bolder;
     font-size: 45px;
@@ -89,6 +97,7 @@ main{
     width: 90%;
     box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
     margin-top: 50px;
+    border-radius: 20px;
 }
 .grow-box > div{
     flex: 1;
@@ -100,6 +109,7 @@ main{
     width: 90%;
     box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
     margin-top: 50px;
+    border-radius: 20px;
 }
 .flow-box > div{
     flex: 1;
@@ -112,6 +122,7 @@ main{
     box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
     margin-top: 50px;
     margin-bottom: 300px;
+    border-radius: 20px;
 }
 .users-box > div{
     flex: 1;
@@ -242,8 +253,5 @@ a{
 }
 .copyright{
     text-align: right;
+    padding-right: 100px;
 }
-hsl(193, 100%, 96%)
-- Very Dark Cyan: hsl(192, 100%, 9%)
-- Grayish Blue: hsl(208, 11%, 55%)
-Pink: hsl(322, 100%, 66%)
