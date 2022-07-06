@@ -14,6 +14,7 @@ header{
     font-family: 'Poppins';
     background-color: hsl(193, 100%, 96%);
     margin-bottom: 200px;
+    height: 100vh;
 }
 nav{
     display: flex;
@@ -25,12 +26,13 @@ nav{
 nav > img{
     
     animation-name: anime;
-    animation-duration: 2s;
+    animation-duration: 5s;
+    
 }
 nav > button{
    color: hsl(192, 100%, 9%);
-   height: 60px;
-    width: 250px;
+   height: 40px;
+    width: 150px;
     border: none;
     border-radius: 50px;
     font-size: 17px;
@@ -40,15 +42,17 @@ nav > button{
 .hero-div{
     display: flex;
     padding-top: 100px;
-    height: 70vh;
+    
 }
 .hero-text{
-    margin: auto;
+    
     flex: 1;
     
 }
 .hero-text > div{
+    margin: auto;
     text-align: justify;
+    margin-bottom: 150px;
     padding-left: 100px;
     width: 60%;
     color: hsl(192, 100%, 9%);
@@ -63,7 +67,7 @@ nav > button{
 
 .hero-text > div > h1{
     font-weight: bolder;
-    font-size: 45px;
+    font-size: 30px;
 }
 .hero-text > div > p{
     font-size: 17px;
@@ -83,6 +87,7 @@ nav > button{
 }
 .mockUp-img >div> img{
     width: 80%;
+    margin-top: -200px;
     
     
 }
@@ -133,19 +138,21 @@ main{
     margin: auto;
     flex: 1;
 }
-
+.grow-text >div, .flow-text >div, .users-text>div{
+    width: 80%;
+}
 .grow-text > div{
     padding: 100px;
 }
 .flow-img > img{
-    padding: 100px;
+    padding: -100px;
 }
 .users-text > div{
     padding: 100px;
 }
 
 .grow-text > div>p, .flow-text >div >p, .users-text>div>p{
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
 }
 .grow-img > img, .flow-img >img, .users-img >img{
@@ -163,7 +170,7 @@ main{
     border-radius: 15px;
     position: absolute;
     top: -130px;
-    left: 650px;
+    left: 450px;
     color: hsl(192, 100%, 9%);
     font-family: 'Open Sans', sans-serif;
     background-color: white;
